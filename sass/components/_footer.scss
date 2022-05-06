@@ -1,0 +1,175 @@
+footer{
+    background-color: $primery-bg--color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+ }
+ 
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+.mail-logo{
+    margin-right: 70px;
+
+    &__footer{
+        font-family: 'Raleway',sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        text-decoration: none;
+        cursor: default;
+        display: flex;
+        color: $primery-background;
+        margin-bottom: 20px;
+    }
+}
+.mail-list{
+    display: block;
+
+    &__item:not(:last-child){
+        margin-bottom:9px ;
+
+    }
+    &__item:last-child{
+        display: flex;
+    }
+    &__link{
+        text-decoration: none;
+        cursor: default;
+        color: $primery-background;
+        font-style: normal;
+        margin-bottom: 20px;
+    }
+
+    &__link-footer{
+        text-decoration: none;
+        font-style: normal;
+        cursor: default;
+        color: $connect-color;
+    }
+}
+.footer-text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $primery-background;
+    margin-bottom: 20px;
+    }
+    
+.footer-icon{
+        display: flex;
+        justify-content: center;
+      
+    
+    &__item{
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        background-color: $footer-color;
+        border-radius: 50%;
+        border: none;
+        margin-right: 10px;
+        color:     $primery-background;
+        padding: 12px;
+    
+        transition: background-color 250ms var(--cubic);
+    } 
+    
+     &__item:hover{
+        background-color: $accent-color;
+        color:     $primery-background;
+    }
+ 
+     &__instagram{
+        fill: currentColor;
+        width: 20px;
+        height: 20px;
+    }  
+    }
+.mail-submit-form{
+        display: flex;
+        align-items: flex-end;
+        margin-left: auto ;
+    }
+ .mail-form{
+    display: flex;
+    flex-direction: column;
+   
+     &__text{
+  
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color:    $primery-background;
+    
+    font-weight: 700;
+    }
+}
+.mail-form input{
+   width: 358px;
+   height: 50px;
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   color:    $primery-background;
+
+   border-radius: 4px;
+   background-color: $primery-bg--color;
+   margin: 0;
+   padding: 0;
+   padding-left: 16px;
+
+  
+}
+.mail-form input::placeholder{
+  
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.submit-form{
+    position: relative;
+}
+ 
+.submit{
+    width: 200px;
+    height: 50px ;
+    margin-left: 12px;
+    background:$accent-color;
+    border:$accent-color;
+    border-radius: 4px;
+    color: $primery-background;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+ 
+    font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 1.88;
+ 
+     letter-spacing: 0.06em;
+}
+
+ .submit::after{
+     content:url(/images/airplane.svg);
+     width: 24px;
+     height: 24px;
+     margin-left: 10px;
+ 
+}
+
+ .twitter-icon{
+    display: flex; 
+}
+

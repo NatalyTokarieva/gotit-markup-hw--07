@@ -1,0 +1,57 @@
+.button{
+    background-color: $accent-color;
+    color: $primery-background;
+    cursor: pointer;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px; ;
+    line-height: 1.85;
+    letter-spacing: 0.06em;
+    margin:0 auto;
+    display: inline-block;
+    box-shadow: 0px 4px 4px $primery-color;
+    border-radius: 4px;
+    min-width: 200px;
+    padding: 10px 32px;
+    border: 1px solid transparent;}
+
+.button-list{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        
+    
+    
+    &__item{
+        margin-left: 8px;
+    }
+
+    &__secondary-button {
+        background-color: $bg-button-color;
+        color: $primery-color;
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        padding: 6px 22px;
+        border-radius: 4px;
+        cursor: pointer;
+        border: 1px solid transparent;
+    
+        transition: background-color 250ms var(--cubic);
+        transition: color 250ms var(--cubic);
+        transition: box-shadow 250ms var(--cubic);
+    
+       
+     }
+    
+    &__secondary-button:hover, 
+    &__secondary-button:focus{
+        background-color:$accent-color;
+        color: $primery-background;
+       
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+}
