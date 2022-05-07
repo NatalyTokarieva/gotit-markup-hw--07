@@ -51,14 +51,14 @@
     transition: transform 250ms var(--cubic);
 
     transform: translateY(100%);
-   
+}
 
   
- .filter-link:hover &{
+ .filter-link:hover .porto-text{
    
      transform: translateY(0);
  }
-}
+
  .container-filter{
     border-right: 1px solid $border-image;
     border-left: 1px solid $border-image;
