@@ -210,6 +210,11 @@ img {
   border: 1px solid transparent;
 }
 
+.button:hover {
+  -webkit-animation-duration: 250ms;
+          animation-duration: 250ms;
+}
+
 .button-list {
   display: flex;
   justify-content: center;
