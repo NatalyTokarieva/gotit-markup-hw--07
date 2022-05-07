@@ -61,11 +61,12 @@
          align-items: center;
           
          transition: color 250ms var(--cubic);
-        
-  &__:hover{
-            color: $accent-color;
-  }
         }
+        
+  .close-icon:hover{
+            color:$accent-color;
+  }
+        
 
         .modal-container{
             display: flex;
